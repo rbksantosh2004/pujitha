@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="main">
+        <a href="#" class="logo">Portfolio</a>
+        <nav>
+            <ul>
+                <li><a href="#home"><u>HOME</u></a></li>
+                <li><a href="#aboutme"><u>ABOUT ME</u></a></li>
+                <li><a href="#gallery"><u>GALLERY</u></a></li>
+                <li><a href="#contacts"><u>CONTACTS</u></a></li>
+            </ul>
+        </nav>
+        <div class="info" id="home">
+            <h3>Hello, It's Me</h3>
+            <h1>Pujitha Sesetty</h1>
+            <h2>Web Designer</h2>
+            <p>This is my official portfolio website to show all my details.</p>
+            <a href="./resume.pdf">Resume</a>
+        </div>
+        <div class="icons">
+            <a href="https://www.instagram.com/pujitha._.sesetty" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://github.com/Sesetty-Pujitha" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/pujitha-sesetty-839013301" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+    </div>
+
+    <section id="aboutme">
+        <h2><u>ABOUT ME</u></h2>
+        <br><p>My self pujitha, Passionate Computer Science Engineer adept at problem-solving and programming.Eager to leverage theoretical
+            knowledge and practical skills to contribute effectively in dynamic software development environments.</p>
+        <br><h2>Skills</h2>
+        <p>Web Development(HTML,CSS,Java Script)
+        <br>Database Management(MYSQL)
+        <br>Programming(C,C++,Java)</p>
+        <br><h2>Qualification</h2>
+        <h3>Schooling</h3>
+        <p>High School: Vignan's High School</p>
+        <h3>Intermediate</h3>
+        <p>College: Narayana Junior College</p>
+        <h3>B.Tech</h3>
+        <p>Institution: NSRIT College</p>
+        <p>Year of Graduation: 2025</p>
+        <p>CGPA: 8.76</p>
+        <br><h2>Certifications</h2>
+        <ul>
+            <li>Java NPTEL Certification</li>
+            <li>Machine Learning Certification</li>
+           
+        </ul>
+    </section>
+    
+    <section id="gallery">
+        <h2><u>GALLERY</u></h2>
+        <div class="gallery">
+            <img src="./image1.jpg" alt="Project 1">
+            <img src="./image2.jpg" alt="Project 2">
+            <img src="./image3.jpg" alt="Project 3">
+        </div>
+    </section>
+    
+    <section id="contacts">
+        <h2><u>CONTACTS</u></h2>
+        <p>Email: pujithasesetty@gmail.com</p>
+        <p>Phone: 8143711165</p>
+        <div class="icons">
+            <a href="https://www.instagram.com/pujitha._.sesetty" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://github.com/Sesetty-Pujitha" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/pujitha-sesetty-839013301" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+        <form action="your-server-endpoint" method="post" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
